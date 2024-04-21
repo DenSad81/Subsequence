@@ -6,11 +6,10 @@ class Program
         int startNumber = 5;
         int stopNumber = 96;
         int increment = 7;
-        int actualValue;
 
-        for (actualValue = startNumber; actualValue <= stopNumber; actualValue += increment)
+        for (int i = startNumber; i <= stopNumber; i += increment)
         {
-            Console.WriteLine(actualValue);
+            Console.WriteLine(i);
         }
 
         //т.к. мы знаем точные параметры нашего цикла, а именно - начальное значение, 
